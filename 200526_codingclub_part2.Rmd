@@ -1,0 +1,18 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+
+install.packages("cansim")
+
+library(cansim)
+
+download <- get_cansim("13-10-0766-01", language = "english", refresh = TRUE, timeout = 900)
+
+```
+
+
+
+
